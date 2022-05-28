@@ -13,5 +13,6 @@
   },
   "dependencies": {
     "vuetify": "^3.0.0-alpha.11"
-  }
+  },
+  "packageManager": "yarn@3.2.1"
 }

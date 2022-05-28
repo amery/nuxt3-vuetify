@@ -1,4 +1,19 @@
+# yarn
+#
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# npm
+#
 node_modules
+
+# nuxt
+#
 *.log
 .nuxt
 nuxt.d.ts
