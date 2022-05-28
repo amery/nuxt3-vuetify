@@ -4,9 +4,11 @@
 </script>
 
 <template>
+    <NuxtLayout name="vuetify">
     <div>
         Counter: {{ counter }}
         <button @click="counter++">+</button>
         <button @click="counter--">-</button>
     </div>
+    </NuxtLayout>
 </template>
