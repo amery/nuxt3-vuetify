@@ -12,4 +12,9 @@ export default defineNuxtConfig({
     typescript: {
         strict: true,
     },
+    vite: {
+        define: {
+            'process.env.DEBUG': false,
+        },
+    },
 })
